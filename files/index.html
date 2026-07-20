@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Harshan - Portfolio</title>
+    <link rel="icon" href="../design/assets/favicon.ico" type="image/x-icon">
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
+        rel="stylesheet">
+</head>
+
+<body class="font-[Inter]">
+
+    <header class="sticky top-0 z-50">
+        <nav class="flex items-center justify-between  py-2 relative backdrop-blur-[20px]">
+            <div class="logo text-[30px]">
+                <h1>— H.</h1>
+            </div>
+            <div class="section flex space-x-20 text-[15px] py-2">
+                <a href="#" class="hover:border-l-3 px-2 ml-4">Skills</a>
+                <a href="#" class="hover:border-l-3 px-2 ml-4">Projects</a>
+                <a href="#" class="hover:border-l-3  ml-4">Contact —</a>
+            </div>
+        </nav>
+        <div class="border-b border-black-100 opacity-10"></div>
+    </header>
+    <main>
+        <div class="hero_section flex justify-between">
+            <div class="bio">
+                <h1 class="font-thin text-[96px] ml-10 pt-45 pb-0">Hello</h1>
+                <h3 class="ml-12 text-[24px] font-normal -mt-8">It's Shri Harshan</h3>
+                <h4 class="ml-12 text-[16px] text-light">Software Engineer</h4>
+                <h5 class="ml-12 text-[15px] mb-4 font-extralight">"Turning ideas into reliable software through clean
+                    code,
+                    modern technologies, and continuous learning."</h5>
+                <button
+                    class="ml-12 bg-[#B4ADAD] font-normal py-2 px-4 border-b-4 rounded hover:bg-black hover:text-white hover:border-[#000] transition delay-150 duration-300 ease-in-out">View
+                    Projects</button>
+                <button
+                    class="ml-8 bg-transparent  font-normal py-2 px-4 border-1 border-b-4 rounded hover:bg-[#B4ADAD] hover:text-black transition delay-150 duration-300 ease-in-out">Download
+                    Resume</button>
+                <div class="social_media flex">
+                    <a href="https://github.com/harshanrepo"><img src="../design/assets/Github.svg" width="24"
+                            height="24" class="ml-13 py-4"></a>
+                    <a href=""><img src="../design/assets/Linkedin.svg" width="24" height="24" class="ml-10 py-4"></a>
+                    <a href="mailto:shriharshancse@gmail.com"><img src="../design/assets/mail.svg" width="24"
+                            height="24" class="ml-10 py-4"></a>
+
+                </div>
+            </div>
+            <div class="image">
+                <img src="../design/assets/Image.png" alt="Profile Image" class="-mt-15">
+            </div>
+        </div>
+        <div><img src="../design/assets/arrow.png" width="100px" alt="direction." class="-mt-60 ml-180 rotate-180">
+        </div>
+
+        <div class="skills">
+            <h2 class="ml-12 mt-24 text-[24px]">—— Skills</h2>
+            <div class="top flex pt-20">
+                <div class="ml-80 border-1 px-4 py-2 w-sm rounded mr-8 mb-8">
+                    <div class="heading flex mt-8 mb-4 ">
+                        <img src="../design/assets/programming language.png" width="22" height="22">
+                        <h4 class="ml-3 text-[15px] font-semibold">Programming Language</h4>
+                    </div>
+                    <ul class="list-disc pl-10">
+                        <li class="text-[14px]">Python</li>
+                        <li class="text-[14px]">JavaScript</li>
+                        <li class="text-[14px]">SQL</li>
+                        <li class="text-[14px]">HTML5</li>
+                        <li class="text-[14px]">CSS</li>
+                    </ul>
+                </div>
+                <div class="ml-40 border-1 px-4 py-2 w-sm rounded mr-8 mb-8">
+                    <div class="heading flex mt-8 mb-4 ">
+                        <img src="../design/assets/Backend.png" width="22" height="22">
+                        <h4 class="ml-3 text-[15px] font-semibold">Backend</h4>
+                    </div>
+                    <ul class="list-disc pl-10">
+                        <li class="text-[14px]">Flask</li>
+                        <li class="text-[14px]">REST APIs</li>
+                        <li class="text-[14px]">Flask-SQLAlchemy</li>
+                        <li class="text-[14px]">APScheduler</li>
+                    </ul>
+                </div>
+                <div class=" ml-40 border-1 px-4 py-2 w-sm rounded mr-8 mb-8">
+                    <div class="heading flex mt-8 mb-4 ">
+                        <img src="../design/assets/Database.png" width="22" height="22">
+                        <h4 class="ml-3 text-[15px] font-semibold">Database</h4>
+                    </div>
+                    <ul class="list-disc pl-10">
+                        <li class="text-[14px]">PostgreSQL</li>
+                        <li class="text-[14px]">Neon</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="bottom flex pt-10">
+                <div class="ml-80 border-1 px-4 py-2 w-sm rounded mr-8 mb-8">
+                    <div class="heading flex mt-8 mb-4 ">
+                        <img src="../design/assets/Styling.png" width="22" height="22">
+                        <h4 class="ml-3 text-[15px] font-semibold">Styling</h4>
+                    </div>
+                    <ul class="list-disc pl-10">
+                        <li class="text-[14px]">Tailwind CSS</li>
+                        <li class="text-[14px]">Jinja2</li>
+                    </ul>
+                </div>
+                <div class="ml-40 border-1 px-4 py-2 w-sm rounded mr-8 mb-8">
+                    <div class="heading flex mt-8 mb-4 ">
+                        <img src="../design/assets/Tools.png" width="22" height="22">
+                        <h4 class="ml-3 text-[15px] font-semibold">Tools</h4>
+                    </div>
+                    <ul class="list-disc pl-10">
+                        <li class="text-[14px]">Git</li>
+                        <li class="text-[14px]">GitHub</li>
+                        <li class="text-[14px]">VS Code</li>
+                        <li class="text-[14px]">Figma</li>
+                        <li class="text-[14px]">Chrome DevTools</li>
+                    </ul>
+                </div>
+                <div class=" ml-40 border-1 px-4 py-2 w-sm rounded mr-8 mb-8">
+                    <div class="heading flex mt-8 mb-4 ">
+                        <img src="../design/assets/Deploymnet.png" width="22" height="22">
+                        <h4 class="ml-3 text-[15px] font-semibold">Deployment</h4>
+                    </div>
+                    <ul class="list-disc pl-10">
+                        <li class="text-[14px]">Render</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </main>
+
+</body>
+
+</html>
