@@ -16,59 +16,66 @@
 
 <body class="font-[Inter]">
 
-    <header class="sticky top-0 z-50">
-        <nav class="flex items-center justify-between  py-2 relative backdrop-blur-[20px]">
+    <header id="navbar" class="sticky top-0 z-50 transition-colors duration-300">
+        <nav class="flex items-center justify-between py-2 relative backdrop-blur-[20px]">
             <div class="logo text-[30px]">
                 <h1><a href="#bio">— H.</a></h1>
             </div>
             <div class="section flex space-x-15 text-[15px] py-2">
                 <a href="#skills" class="hover:border-l-3 px-2 ml-4">Skills</a>
                 <a href="#projects" class="hover:border-l-3 px-2 ml-4">Projects</a>
-                <a href="#" class="hover:border-l-3  ml-4 px-2">Contact —</a>
+                <a href="#contact" class="hover:border-l-3 ml-4 px-2">Contact —</a>
             </div>
         </nav>
-        <div class="border-b border-black-100 opacity-10"></div>
     </header>
+
     <main>
 
         <div class="hero_section flex justify-between">
             <div id="bio">
                 <h1 class="font-thin text-[96px] ml-10 pt-45 pb-0">Hello</h1>
                 <h3 class="ml-12 text-[24px] font-normal -mt-8">It's Shri Harshan</h3>
-                <h4 class="ml-12 text-[16px] text-light">Software Engineer</h4>
-                <h5 class="ml-12 text-[15px] mb-4 font-extralight">"Turning ideas into reliable software through clean
-                    code,
-                    modern technologies, and continuous learning."</h5>
-                <button
-                    class="ml-12 bg-[#B4ADAD] font-normal py-2 px-4 border-b-4 rounded hover:bg-black hover:text-white hover:border-[#000] transition delay-150 duration-300 ease-in-out cursor-pointer">View
-                    Projects</button>
-                <button
-                    class="ml-8 bg-transparent  font-normal py-2 px-4 border-1 border-b-4 rounded hover:bg-[#B4ADAD] hover:text-black transition delay-150 duration-300 ease-in-out cursor-pointer">Download
-                    Resume</button>
+                <h4 class="ml-12 text-[16px] text-light ">Software Engineer</h4>
+                <p class="ml-12 text-[15px] mb-4 italic font-light"
+                    style="font-family: 'Cormorant Garamond', serif;">
+                    "Turning ideas into reliable software through clean code,
+                    modern technologies, and continuous learning."
+                </p>
+                <a href="#projects"
+                    class="ml-12 bg-[#B4ADAD] font-normal py-2 px-4 border-b-4 rounded hover:bg-black hover:text-white hover:border-[#000] transition delay-150 duration-300 ease-in-out cursor-pointer inline-block">View
+                    Projects</a>
+                <a href="./assets/resume/Shri_Harshan_Resume.pdf" download="Shri_Harshan_Resume.pdf"
+                    class="ml-8 inline-block bg-transparent font-normal py-2 px-4 border border-b-4 rounded hover:bg-[#B4ADAD] hover:text-black transition duration-300 cursor-pointer">
+                    Download Resume
+                </a>
                 <div class="social_media flex">
-                    <a href="https://github.com/harshanrepo"><img src="../design/assets/repo.svg" width="24"
-                            height="24" class="ml-13 py-4"></a>
-                    <a href=""><img src="../design/assets/Linkedin.svg" width="24" height="24" class="ml-10 py-4"></a>
-                    <a href="mailto:shriharshancse@gmail.com"><img src="../design/assets/mail.svg" width="24"
-                            height="24" class="ml-10 py-4"></a>
+                    <a href="https://github.com/harshanrepo" aria-label="GitHub"><img src="../design/assets/repo.svg"
+                            width="24" height="24" class="ml-13 py-4" alt="GitHub logo"></a>
+                    <a href="https://www.linkedin.com/in/your-profile" aria-label="LinkedIn"><img
+                            src="../design/assets/Linkedin.svg" width="24" height="24" class="ml-10 py-4"
+                            alt="LinkedIn logo"></a>
+                    <a href="mailto:shriharshancse@gmail.com" aria-label="Email"><img src="../design/assets/mail.svg"
+                            width="24" height="24" class="ml-10 py-4" alt="Email icon"></a>
                 </div>
             </div>
             <div class="image">
-                <img src="../design/Images/Image.png" alt="Profile Image" class="-mt-15">
+                <img src="../design/Images/Image.png" alt="Portrait of Shri Harshan" class="-mt-15">
             </div>
         </div>
-        <div><img src="../design/assets/arrow.png" width="100px" alt="direction." class="-mt-60 ml-180 rotate-180">
+        <div><img src="../design/assets/arrow.png" width="100px" alt="Scroll down arrow"
+                class="-mt-60 ml-180 rotate-180">
         </div>
 
         <div id="skills">
             <h2
                 class="ml-12 mt-24 text-[24px] w-[125px] hover:bg-black hover:text-white p-2 transition delay-150 duration-300 rounded">
                 —— Skills</h2>
-            <div class="top flex pt-20 ">
+            <div class="top flex pt-5 ">
                 <div
                     class="ml-80 border-1 px-4 py-2 w-sm rounded mr-8 mb-8 hover:shadow-[5px_5px_rgba(0,_98,_90,_0.4),_10px_10px_rgba(0,_98,_90,_0.3),_15px_15px_rgba(0,_98,_90,_0.2),_20px_20px_rgba(0,_98,_90,_0.1),_25px_25px_rgba(0,_98,_90,_0.05)] transition delay-150 duration-300 ease-in-out cursor-pointer">
                     <div class="heading flex mt-8 mb-4 ">
-                        <img src="../design/assets/programming language.png" width="22" height="22">
+                        <img src="../design/assets/programming language.png" width="22" height="22"
+                            alt="Programming language icon">
                         <h4 class="ml-3 text-[15px] font-semibold">Programming Language</h4>
                     </div>
                     <ul class="list-disc pl-10">
@@ -82,7 +89,7 @@
                 <div
                     class="ml-40 border-1 px-4 py-2 w-sm rounded mr-8 mb-8 hover:shadow-[5px_5px_rgba(0,_98,_90,_0.4),_10px_10px_rgba(0,_98,_90,_0.3),_15px_15px_rgba(0,_98,_90,_0.2),_20px_20px_rgba(0,_98,_90,_0.1),_25px_25px_rgba(0,_98,_90,_0.05)] transition delay-150 duration-300 ease-in-out cursor-pointer">
                     <div class="heading flex mt-8 mb-4 ">
-                        <img src="../design/assets/Backend.png" width="22" height="22">
+                        <img src="../design/assets/Backend.png" width="22" height="22" alt="Backend icon">
                         <h4 class="ml-3 text-[15px] font-semibold">Backend</h4>
                     </div>
                     <ul class="list-disc pl-10">
@@ -95,7 +102,7 @@
                 <div
                     class=" ml-40 border-1 px-4 py-2 w-sm rounded mr-8 mb-8 hover:shadow-[5px_5px_rgba(0,_98,_90,_0.4),_10px_10px_rgba(0,_98,_90,_0.3),_15px_15px_rgba(0,_98,_90,_0.2),_20px_20px_rgba(0,_98,_90,_0.1),_25px_25px_rgba(0,_98,_90,_0.05)] transition delay-150 duration-300 ease-in-out cursor-pointer">
                     <div class="heading flex mt-8 mb-4 ">
-                        <img src="../design/assets/Database.png" width="22" height="22">
+                        <img src="../design/assets/Database.png" width="22" height="22" alt="Database icon">
                         <h4 class="ml-3 text-[15px] font-semibold">Database</h4>
                     </div>
                     <ul class="list-disc pl-10">
@@ -108,7 +115,7 @@
                 <div
                     class="ml-80 border-1 px-4 py-2 w-sm rounded mr-8 mb-8 hover:shadow-[5px_5px_rgba(0,_98,_90,_0.4),_10px_10px_rgba(0,_98,_90,_0.3),_15px_15px_rgba(0,_98,_90,_0.2),_20px_20px_rgba(0,_98,_90,_0.1),_25px_25px_rgba(0,_98,_90,_0.05)] transition delay-150 duration-300 ease-in-out cursor-pointer">
                     <div class="heading flex mt-8 mb-4 ">
-                        <img src="../design/assets/Styling.png" width="22" height="22">
+                        <img src="../design/assets/Styling.png" width="22" height="22" alt="Styling icon">
                         <h4 class="ml-3 text-[15px] font-semibold">Styling</h4>
                     </div>
                     <ul class="list-disc pl-10">
@@ -119,7 +126,7 @@
                 <div
                     class="ml-40 border-1 px-4 py-2 w-sm rounded mr-8 mb-8 hover:shadow-[5px_5px_rgba(0,_98,_90,_0.4),_10px_10px_rgba(0,_98,_90,_0.3),_15px_15px_rgba(0,_98,_90,_0.2),_20px_20px_rgba(0,_98,_90,_0.1),_25px_25px_rgba(0,_98,_90,_0.05)] transition delay-150 duration-300 ease-in-out cursor-pointer">
                     <div class="heading flex mt-8 mb-4 ">
-                        <img src="../design/assets/Tools.png" width="22" height="22">
+                        <img src="../design/assets/Tools.png" width="22" height="22" alt="Tools icon">
                         <h4 class="ml-3 text-[15px] font-semibold">Tools</h4>
                     </div>
                     <ul class="list-disc pl-10">
@@ -133,7 +140,7 @@
                 <div
                     class=" ml-40 border-1 px-4 py-2 w-sm rounded mr-8 mb-8 hover:shadow-[5px_5px_rgba(0,_98,_90,_0.4),_10px_10px_rgba(0,_98,_90,_0.3),_15px_15px_rgba(0,_98,_90,_0.2),_20px_20px_rgba(0,_98,_90,_0.1),_25px_25px_rgba(0,_98,_90,_0.05)] transition delay-150 duration-300 ease-in-out cursor-pointer">
                     <div class="heading flex mt-8 mb-4 ">
-                        <img src="../design/assets/Deploymnet.png" width="22" height="22">
+                        <img src="../design/assets/Deploymnet.png" width="22" height="22" alt="Deployment icon">
                         <h4 class="ml-3 text-[15px] font-semibold">Deployment</h4>
                     </div>
                     <ul class="list-disc pl-10">
@@ -148,48 +155,164 @@
                 <h2
                     class="ml-12 mt-24 text-[24px] hover:bg-black hover:text-white p-2 transition delay-150 duration-300 rounded">
                     —— Projects</h2>
-                <h2 class=" mt-24 text-[18px] mr-20 ">View all Projects ——</h2>
+                <h2 class=" mt-24 text-[18px] mr-20 "><a href="https://github.com/harshanrepo?tab=repositories" class="hover:underline transition delay-150 duration-300">View all
+                        Projects </a>——</h2>
             </div>
-            <h4 class="ml-30 mt-10 text-[16px]">A selection of applications I've designed and built using <b>Python</b>,
-                <b>Flask</b>, <b>PostgreSQL</b>, <br>and <b>modern web technologies</b>.
+            <h4 class="ml-12 mr-12 mt-10 text-[16px]">A selection of applications I've designed and built using
+                <b>Python</b>,
+                <b>Flask</b>, <b>PostgreSQL</b>, and <b>modern web technologies</b>.
             </h4>
-            <!-- <div class="ml-30  grid grid-cols-2 mb-4">
-                <div
-                    class=" bg-[url(/design/Images/argus.png)] bg-cover mt-12 border-1  py-8 px-8 rounded text-white col-span-full">
 
-                    <h4 class="text-[20px] mb-2 font-bold">Argus</h4>
-                    <h4 class="text-[15px] mb-2 font-normal">API Uptime Monitoring Tool</h4>
-                    <p class="font-normal">Monitor API health with automated uptime checks and visualize endpoint status
-                        in real time.</p>
-                    <h4 class="text-[15px] mt-4 mb-2 font-bold">Tech Stack</h4>
-                    <div class="flex justify-between">
-                        <div class="flex space-x-8 mt-1 ml-0.5">
-                            <p
-                                class="bg-transparent  h-12 font-normal py-2 px-4 border-1 border-b-4 rounded cursor-pointer">
-                                Python</p>
-                            <p
-                                class="bg-transparent  h-12 font-normal py-2 px-4 border-1 border-b-4 rounded cursor-pointer">
-                                Flask</p>
-                            <p
-                                class="bg-transparent  h-12 font-normal py-2 px-4 border-1 border-b-4 rounded cursor-pointer">
-                                PostgreSQL</p>
-                            <p
-                                class="bg-transparent  h-12 font-normal py-2 px-4 border-1 border-b-4 rounded cursor-pointer">
-                                APScheduler</p>
-                            <p
-                                class="bg-transparent  h-12 font-normal py-2 px-4 border-1 border-b-4 rounded cursor-pointer">
-                                Tailwind CSS</p>
+            <div class="mx-12 mt-10 space-y-6">
+
+                <!-- Argus - full width card -->
+                <div
+                    class="relative bg-[url('../design/Images/argus.png')] bg-cover bg-center rounded-2xl p-8 text-white overflow-hidden ">
+                    <div class="absolute inset-0 bg-black/70"></div>
+                    <div class="relative">
+                        <div class="flex items-start justify-between">
+                            <h3 class="text-2xl font-bold">Argus</h3>
+                            <div class="flex gap-2">
+                                <a href="https://github.com/harshanrepo/Argus-API-Uptime-Monitor"><img
+                                        src="../design/assets/github.png" width="30" height="30"></a>
+                                <a href="https://argus-api-uptime-monitor.onrender.com"><img
+                                        src="../design/assets/Demo.svg" width="24" height="24" class="pt-1"></a>
+                            </div>
                         </div>
-                        <div class="demo flex ">
-                            <a href="https://github.com/harshanrepo/Argus-API-Uptime-Monitor"><img
-                                    src="../design/assets/github.png" width="40" height="40" class="ml-13"></a>
-                            <a href="https://argus-api-uptime-monitor.onrender.com"><img src="../design/assets/Demo.svg"
-                                    width="20" height="20" class="ml-6 pt-3 "></a>
+                        <h4 class="text-base font-medium mt-1">API Uptime Monitoring Tool</h4>
+                        <p class="text-sm text-gray-300 mt-3 max-w-xl">Monitor API health with automated uptime checks
+                            and visualize endpoint status in real time.</p>
+
+                        <h5 class="text-sm font-semibold mt-6 mb-2">Tech Stack</h5>
+                        <div class="flex flex-wrap gap-2">
+                            <span
+                                class="bg-white/10 border border-white/20 text-xs px-3 py-1 rounded-full">Python</span>
+                            <span class="bg-white/10 border border-white/20 text-xs px-3 py-1 rounded-full">Flask</span>
+                            <span
+                                class="bg-white/10 border border-white/20 text-xs px-3 py-1 rounded-full">PostgreSQL</span>
+                            <span
+                                class="bg-white/10 border border-white/20 text-xs px-3 py-1 rounded-full">APScheduler</span>
+                            <span class="bg-white/10 border border-white/20 text-xs px-3 py-1 rounded-full">Tailwind
+                                CSS</span>
                         </div>
                     </div>
                 </div>
-            </div> -->
+
+                <!-- SpendWise + Savora -->
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+
+                    <!-- SpendWise -->
+                    <div
+                        class="relative bg-[url('../design/Images/spendwise.png')] bg-cover bg-center rounded-2xl p-8 text-white overflow-hidden min-h-[190px]">
+                        <div class="absolute inset-0 bg-black/70 backdrop-blur-[10px] "></div>
+                        <div class="relative">
+                            <div class="flex items-start justify-between ">
+                                <h3 class="text-2xl font-bold">SpendWise</h3>
+                                <div class="flex gap-2">
+                                    <a href="https://github.com/harshanrepo/expense-tracker"><img
+                                            src="../design/assets/github.png" width="30" height="30"></a>
+                                    <a href="https://expense-tracker-1-augk.onrender.com/"><img
+                                            src="../design/assets/Demo.svg" width="24" height="24" class="pt-1"></a>
+                                </div>
+                            </div>
+                            <h4 class="text-base font-medium mt-1">Expense Tracker</h4>
+                            <p class="text-sm text-gray-300 mt-3">Track expenses, organize spending by category, and
+                                gain financial insights through a secure, user-friendly dashboard.</p>
+
+                            <h5 class="text-sm font-semibold mt-6 mb-2">Tech Stack</h5>
+                            <div class="flex flex-wrap gap-2">
+                                <span
+                                    class="bg-white/10 border border-white/20 text-xs px-3 py-1 rounded-full">Python</span>
+                                <span
+                                    class="bg-white/10 border border-white/20 text-xs px-3 py-1 rounded-full">Flask</span>
+                                <span
+                                    class="bg-white/10 border border-white/20 text-xs px-3 py-1 rounded-full">PostgreSQL</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Savora -->
+                    <div
+                        class="relative bg-[url('../design/Images/savora.png')] rounded-2xl p-8 text-white overflow-hidden min-h-[190px]">
+                        <div class="absolute inset-0 bg-black/70 backdrop-blur-[10px] "></div>
+                        <div class="relative">
+
+                            <div class="flex items-start justify-between">
+                                <h3 class="text-2xl font-bold">Savora</h3>
+                                <a href="https://github.com/harshanrepo/savora-link-manager"><img
+                                        src="../design/assets/github.png" width="30" height="30"></a>
+                            </div>
+                            <h4 class="text-base font-medium mt-1">Browser Link Manager Extension</h4>
+                            <p class="text-sm text-indigo-100 mt-3">Save, organize, and quickly access browser tabs
+                                with a lightweight Chrome extension built for productivity.</p>
+
+                            <h5 class="text-sm font-semibold mt-6 mb-2">Tech Stack</h5>
+                            <div class="flex flex-wrap gap-2">
+                                <span
+                                    class="bg-white/10 border border-white/20 text-xs px-3 py-1 rounded-full">HTML5</span>
+                                <span
+                                    class="bg-white/10 border border-white/20 text-xs px-3 py-1 rounded-full">CSS</span>
+                                <span
+                                    class="bg-white/10 border border-white/20 text-xs px-3 py-1 rounded-full">JavaScript</span>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
         </div>
+
+        <div id="contact" class="ml-12 mt-24 mb-24">
+            <h2
+                class="text-[24px] w-[210px] hover:bg-black hover:text-white p-2 transition delay-150 duration-300 rounded">
+                —— Get in Touch</h2>
+            <h2 class="text-center text-[32px] mt-8"><b>Interested in working together? <br>I'd love to hear from
+                    you.</b></h2>
+            <div class="flex justify-center mt-8">
+
+                <button
+                    class="bg-transparent text-black border border-black border-b-4 font-medium overflow-hidden relative px-4 py-2 rounded-md hover:bg-black hover:text-white hover:border-t-4 hover:border-b active:opacity-75 outline-none duration-300 group">
+                    <span
+                        class="bg-black shadow-black absolute -top-[150%] left-0 inline-flex w-80 h-[5px] rounded-md opacity-50 group-hover:top-[150%] duration-500 shadow-[0_0_10px_10px_rgba(0,0,0,0.3)]"></span>
+                    <a href="mailto:shriharshancse@gmail.com">Email me</a>
+                </button>
+            </div>
+        </div>
+
+        <div class="details flex justify-between">
+            <p class="ml-12">📍 <b>Madurai, Tamil Nadu, India</b></p>
+            <div class="right">
+                <p class="mr-20">Designed & Developed by <b>Shri Harshan</b></p>
+                <div class="social_media flex">
+                    <a href="https://github.com/harshanrepo" aria-label="GitHub"><img src="../design/assets/repo.svg"
+                            width="24" height="24" class="ml-13 py-4" alt="GitHub logo"></a>
+                    <a href="https://www.linkedin.com/in/your-profile" aria-label="LinkedIn"><img
+                            src="../design/assets/Linkedin.svg" width="24" height="24" class="ml-10 py-4"
+                            alt="LinkedIn logo"></a>
+                    <a href="mailto:shriharshancse@gmail.com" aria-label="Email"><img src="../design/assets/mail.svg"
+                            width="24" height="24" class="ml-10 py-4" alt="Email icon"></a>
+                </div>
+            </div>
+
+
+        </div>
+
+        <footer>
+            <p class="text-center">© 2026 Shri Harshan. All rights reserved.</p>
+        </footer>
+        <script>
+            const navbar = document.getElementById('navbar');
+
+            window.addEventListener('scroll', () => {
+                if (window.scrollY > 50) {
+                    navbar.classList.add('bg-black', 'text-white');
+                    navbar.classList.remove('bg-transparent', 'text-black');
+                } else {
+                    navbar.classList.add('bg-transparent', 'text-black');
+                    navbar.classList.remove('bg-black', 'text-white');
+                }
+            });
+        </script>
     </main>
 </body>
 
