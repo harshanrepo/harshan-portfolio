@@ -47,7 +47,7 @@ A Chrome extension for saving, organizing, and managing browser tabs with persis
 
 ## 🔗 Live Demo
 
-https://your-portfolio-link.com
+Update later
 
 ## 💻 Installation
 
