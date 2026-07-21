@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" class="scroll-smooth">
 
 <head>
     <meta charset="UTF-8">
@@ -19,19 +19,20 @@
     <header class="sticky top-0 z-50">
         <nav class="flex items-center justify-between  py-2 relative backdrop-blur-[20px]">
             <div class="logo text-[30px]">
-                <h1>— H.</h1>
+                <h1><a href="#bio">— H.</a></h1>
             </div>
-            <div class="section flex space-x-20 text-[15px] py-2">
-                <a href="#" class="hover:border-l-3 px-2 ml-4">Skills</a>
-                <a href="#" class="hover:border-l-3 px-2 ml-4">Projects</a>
-                <a href="#" class="hover:border-l-3  ml-4">Contact —</a>
+            <div class="section flex space-x-15 text-[15px] py-2">
+                <a href="#skills" class="hover:border-l-3 px-2 ml-4">Skills</a>
+                <a href="#projects" class="hover:border-l-3 px-2 ml-4">Projects</a>
+                <a href="#" class="hover:border-l-3  ml-4 px-2">Contact —</a>
             </div>
         </nav>
         <div class="border-b border-black-100 opacity-10"></div>
     </header>
     <main>
+
         <div class="hero_section flex justify-between">
-            <div class="bio">
+            <div id="bio">
                 <h1 class="font-thin text-[96px] ml-10 pt-45 pb-0">Hello</h1>
                 <h3 class="ml-12 text-[24px] font-normal -mt-8">It's Shri Harshan</h3>
                 <h4 class="ml-12 text-[16px] text-light">Software Engineer</h4>
@@ -39,31 +40,33 @@
                     code,
                     modern technologies, and continuous learning."</h5>
                 <button
-                    class="ml-12 bg-[#B4ADAD] font-normal py-2 px-4 border-b-4 rounded hover:bg-black hover:text-white hover:border-[#000] transition delay-150 duration-300 ease-in-out">View
+                    class="ml-12 bg-[#B4ADAD] font-normal py-2 px-4 border-b-4 rounded hover:bg-black hover:text-white hover:border-[#000] transition delay-150 duration-300 ease-in-out cursor-pointer">View
                     Projects</button>
                 <button
-                    class="ml-8 bg-transparent  font-normal py-2 px-4 border-1 border-b-4 rounded hover:bg-[#B4ADAD] hover:text-black transition delay-150 duration-300 ease-in-out">Download
+                    class="ml-8 bg-transparent  font-normal py-2 px-4 border-1 border-b-4 rounded hover:bg-[#B4ADAD] hover:text-black transition delay-150 duration-300 ease-in-out cursor-pointer">Download
                     Resume</button>
                 <div class="social_media flex">
-                    <a href="https://github.com/harshanrepo"><img src="../design/assets/Github.svg" width="24"
+                    <a href="https://github.com/harshanrepo"><img src="../design/assets/repo.svg" width="24"
                             height="24" class="ml-13 py-4"></a>
                     <a href=""><img src="../design/assets/Linkedin.svg" width="24" height="24" class="ml-10 py-4"></a>
                     <a href="mailto:shriharshancse@gmail.com"><img src="../design/assets/mail.svg" width="24"
                             height="24" class="ml-10 py-4"></a>
-
                 </div>
             </div>
             <div class="image">
-                <img src="../design/assets/Image.png" alt="Profile Image" class="-mt-15">
+                <img src="../design/Images/Image.png" alt="Profile Image" class="-mt-15">
             </div>
         </div>
         <div><img src="../design/assets/arrow.png" width="100px" alt="direction." class="-mt-60 ml-180 rotate-180">
         </div>
 
-        <div class="skills">
-            <h2 class="ml-12 mt-24 text-[24px]">—— Skills</h2>
-            <div class="top flex pt-20">
-                <div class="ml-80 border-1 px-4 py-2 w-sm rounded mr-8 mb-8">
+        <div id="skills">
+            <h2
+                class="ml-12 mt-24 text-[24px] w-[125px] hover:bg-black hover:text-white p-2 transition delay-150 duration-300 rounded">
+                —— Skills</h2>
+            <div class="top flex pt-20 ">
+                <div
+                    class="ml-80 border-1 px-4 py-2 w-sm rounded mr-8 mb-8 hover:shadow-[5px_5px_rgba(0,_98,_90,_0.4),_10px_10px_rgba(0,_98,_90,_0.3),_15px_15px_rgba(0,_98,_90,_0.2),_20px_20px_rgba(0,_98,_90,_0.1),_25px_25px_rgba(0,_98,_90,_0.05)] transition delay-150 duration-300 ease-in-out cursor-pointer">
                     <div class="heading flex mt-8 mb-4 ">
                         <img src="../design/assets/programming language.png" width="22" height="22">
                         <h4 class="ml-3 text-[15px] font-semibold">Programming Language</h4>
@@ -76,7 +79,8 @@
                         <li class="text-[14px]">CSS</li>
                     </ul>
                 </div>
-                <div class="ml-40 border-1 px-4 py-2 w-sm rounded mr-8 mb-8">
+                <div
+                    class="ml-40 border-1 px-4 py-2 w-sm rounded mr-8 mb-8 hover:shadow-[5px_5px_rgba(0,_98,_90,_0.4),_10px_10px_rgba(0,_98,_90,_0.3),_15px_15px_rgba(0,_98,_90,_0.2),_20px_20px_rgba(0,_98,_90,_0.1),_25px_25px_rgba(0,_98,_90,_0.05)] transition delay-150 duration-300 ease-in-out cursor-pointer">
                     <div class="heading flex mt-8 mb-4 ">
                         <img src="../design/assets/Backend.png" width="22" height="22">
                         <h4 class="ml-3 text-[15px] font-semibold">Backend</h4>
@@ -88,7 +92,8 @@
                         <li class="text-[14px]">APScheduler</li>
                     </ul>
                 </div>
-                <div class=" ml-40 border-1 px-4 py-2 w-sm rounded mr-8 mb-8">
+                <div
+                    class=" ml-40 border-1 px-4 py-2 w-sm rounded mr-8 mb-8 hover:shadow-[5px_5px_rgba(0,_98,_90,_0.4),_10px_10px_rgba(0,_98,_90,_0.3),_15px_15px_rgba(0,_98,_90,_0.2),_20px_20px_rgba(0,_98,_90,_0.1),_25px_25px_rgba(0,_98,_90,_0.05)] transition delay-150 duration-300 ease-in-out cursor-pointer">
                     <div class="heading flex mt-8 mb-4 ">
                         <img src="../design/assets/Database.png" width="22" height="22">
                         <h4 class="ml-3 text-[15px] font-semibold">Database</h4>
@@ -100,7 +105,8 @@
                 </div>
             </div>
             <div class="bottom flex pt-10">
-                <div class="ml-80 border-1 px-4 py-2 w-sm rounded mr-8 mb-8">
+                <div
+                    class="ml-80 border-1 px-4 py-2 w-sm rounded mr-8 mb-8 hover:shadow-[5px_5px_rgba(0,_98,_90,_0.4),_10px_10px_rgba(0,_98,_90,_0.3),_15px_15px_rgba(0,_98,_90,_0.2),_20px_20px_rgba(0,_98,_90,_0.1),_25px_25px_rgba(0,_98,_90,_0.05)] transition delay-150 duration-300 ease-in-out cursor-pointer">
                     <div class="heading flex mt-8 mb-4 ">
                         <img src="../design/assets/Styling.png" width="22" height="22">
                         <h4 class="ml-3 text-[15px] font-semibold">Styling</h4>
@@ -110,7 +116,8 @@
                         <li class="text-[14px]">Jinja2</li>
                     </ul>
                 </div>
-                <div class="ml-40 border-1 px-4 py-2 w-sm rounded mr-8 mb-8">
+                <div
+                    class="ml-40 border-1 px-4 py-2 w-sm rounded mr-8 mb-8 hover:shadow-[5px_5px_rgba(0,_98,_90,_0.4),_10px_10px_rgba(0,_98,_90,_0.3),_15px_15px_rgba(0,_98,_90,_0.2),_20px_20px_rgba(0,_98,_90,_0.1),_25px_25px_rgba(0,_98,_90,_0.05)] transition delay-150 duration-300 ease-in-out cursor-pointer">
                     <div class="heading flex mt-8 mb-4 ">
                         <img src="../design/assets/Tools.png" width="22" height="22">
                         <h4 class="ml-3 text-[15px] font-semibold">Tools</h4>
@@ -123,7 +130,8 @@
                         <li class="text-[14px]">Chrome DevTools</li>
                     </ul>
                 </div>
-                <div class=" ml-40 border-1 px-4 py-2 w-sm rounded mr-8 mb-8">
+                <div
+                    class=" ml-40 border-1 px-4 py-2 w-sm rounded mr-8 mb-8 hover:shadow-[5px_5px_rgba(0,_98,_90,_0.4),_10px_10px_rgba(0,_98,_90,_0.3),_15px_15px_rgba(0,_98,_90,_0.2),_20px_20px_rgba(0,_98,_90,_0.1),_25px_25px_rgba(0,_98,_90,_0.05)] transition delay-150 duration-300 ease-in-out cursor-pointer">
                     <div class="heading flex mt-8 mb-4 ">
                         <img src="../design/assets/Deploymnet.png" width="22" height="22">
                         <h4 class="ml-3 text-[15px] font-semibold">Deployment</h4>
@@ -134,8 +142,55 @@
                 </div>
             </div>
         </div>
-    </main>
 
+        <div id="projects">
+            <div class="flex justify-between">
+                <h2
+                    class="ml-12 mt-24 text-[24px] hover:bg-black hover:text-white p-2 transition delay-150 duration-300 rounded">
+                    —— Projects</h2>
+                <h2 class=" mt-24 text-[18px] mr-20 ">View all Projects ——</h2>
+            </div>
+            <h4 class="ml-30 mt-10 text-[16px]">A selection of applications I've designed and built using <b>Python</b>,
+                <b>Flask</b>, <b>PostgreSQL</b>, <br>and <b>modern web technologies</b>.
+            </h4>
+            <!-- <div class="ml-30  grid grid-cols-2 mb-4">
+                <div
+                    class=" bg-[url(/design/Images/argus.png)] bg-cover mt-12 border-1  py-8 px-8 rounded text-white col-span-full">
+
+                    <h4 class="text-[20px] mb-2 font-bold">Argus</h4>
+                    <h4 class="text-[15px] mb-2 font-normal">API Uptime Monitoring Tool</h4>
+                    <p class="font-normal">Monitor API health with automated uptime checks and visualize endpoint status
+                        in real time.</p>
+                    <h4 class="text-[15px] mt-4 mb-2 font-bold">Tech Stack</h4>
+                    <div class="flex justify-between">
+                        <div class="flex space-x-8 mt-1 ml-0.5">
+                            <p
+                                class="bg-transparent  h-12 font-normal py-2 px-4 border-1 border-b-4 rounded cursor-pointer">
+                                Python</p>
+                            <p
+                                class="bg-transparent  h-12 font-normal py-2 px-4 border-1 border-b-4 rounded cursor-pointer">
+                                Flask</p>
+                            <p
+                                class="bg-transparent  h-12 font-normal py-2 px-4 border-1 border-b-4 rounded cursor-pointer">
+                                PostgreSQL</p>
+                            <p
+                                class="bg-transparent  h-12 font-normal py-2 px-4 border-1 border-b-4 rounded cursor-pointer">
+                                APScheduler</p>
+                            <p
+                                class="bg-transparent  h-12 font-normal py-2 px-4 border-1 border-b-4 rounded cursor-pointer">
+                                Tailwind CSS</p>
+                        </div>
+                        <div class="demo flex ">
+                            <a href="https://github.com/harshanrepo/Argus-API-Uptime-Monitor"><img
+                                    src="../design/assets/github.png" width="40" height="40" class="ml-13"></a>
+                            <a href="https://argus-api-uptime-monitor.onrender.com"><img src="../design/assets/Demo.svg"
+                                    width="20" height="20" class="ml-6 pt-3 "></a>
+                        </div>
+                    </div>
+                </div>
+            </div> -->
+        </div>
+    </main>
 </body>
 
 </html>
