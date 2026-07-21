@@ -67,8 +67,8 @@ Open `index.html` in your browser.
 
 ## Connect With Me
 
-- LinkedIn: https://linkedin.com/in/yourprofile
-- Email: your.email@example.com
+- LinkedIn: https://www.linkedin.com/in/mrshri-harshan/
+- Email: shriharshancse@gmail.com
 
 ---
 
