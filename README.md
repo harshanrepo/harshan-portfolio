@@ -47,7 +47,7 @@ A Chrome extension for saving, organizing, and managing browser tabs with persis
 
 ## 🔗 Live Demo
 
-https://your-portfolio-link.com
+Update later
 
 ## 💻 Installation
 
@@ -67,8 +67,8 @@ Open `index.html` in your browser.
 
 ## Connect With Me
 
-- LinkedIn: https://linkedin.com/in/yourprofile
-- Email: your.email@example.com
+- LinkedIn: https://www.linkedin.com/in/mrshri-harshan/
+- Email: shriharshancse@gmail.com
 
 ---
 
