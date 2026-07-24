@@ -5,21 +5,18 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Harshan - Portfolio</title>
-    <meta
-    name="description"
-    content="Portfolio of Harshan, a Software Engineer showcasing projects, skills, and experience in Python and web development."
-  >
+    <meta name="description"
+        content="Portfolio of Harshan, a Software Engineer showcasing projects, skills, and experience in Python and web development.">
 
-  <meta
-    name="keywords"
-    content="Harshan, Software Engineer, Python, Flask, PostgreSQL, Portfolio"
-  >
+    <meta name="keywords" content="Harshan, Software Engineer, Python, Flask, PostgreSQL, Portfolio">
     <link rel="icon" href="./design/assets/favicon.ico" type="image/x-icon">
     <link rel="icon" href="./design/assets/faviconII.png" type="image/png">
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet">
 </head>
 
 <body class="font-[Poppins] bg-[#F8F4EB]">
@@ -39,49 +36,75 @@
 
     <main>
 
-        <div class="hero_section flex flex-col md:flex-row justify-between items-center md:items-start px-4 md:px-0">
-            <div id="bio" class="w-full md:w-auto flex flex-col items-center md:items-start text-center md:text-left">
-                <h1 class="font-thin text-[56px] sm:text-[72px] lg:text-[96px] md:ml-10 pt-16 md:pt-45 pb-0">Hello</h1>
-                <h3 class="md:ml-12 text-[20px] sm:text-[24px] font-normal -mt-4 md:-mt-8">It's Shri Harshan</h3>
-                <h4 class="md:ml-12 text-[16px] text-light ">Software Engineer</h4>
-                <p class="md:ml-12 text-[13px] mb-4 italic font-light max-w-md w-full"
-                    style="font-family: 'Cormorant Garamond', serif;">
-                    "Turning ideas into reliable software through clean code,
-                    modern technologies, and continuous learning."
-                </p>
-                <div
-                    class="flex flex-col sm:flex-row items-center justify-center md:justify-start gap-3 sm:gap-0 w-full md:ml-12">
-                    <a href="#projects"
-                        class="bg-[#B4ADAD] font-normal py-2 px-4 border-b-4 rounded hover:bg-black hover:text-white hover:border-[#000] transition delay-150 duration-300 ease-in-out cursor-pointer inline-block">View
-                        Projects</a>
-                    <a href="design/assets/resume/Shri_Harshan_Resume.pdf" download="Shri_Harshan_Resume.pdf"
-                        class="sm:ml-8 inline-block bg-transparent font-normal py-2 px-4 border border-b-4 rounded hover:bg-[#B4ADAD] hover:text-black transition duration-300 cursor-pointer">
-                        Download Resume
-                    </a>
-                </div>
-                <div class="social_media flex justify-center md:justify-start w-full">
+        <div class="hero_section relative flex flex-col md:flex-row items-center justify-center px-6 md:px-16 py-16 md:py-24 gap-10 md:gap-16 max-w-5xl mx-auto" id="bio">
 
-                    <a href="https://github.com/harshanrepo" target="_blank" rel="noopener noreferrer"
-                        aria-label="GitHub"><img src="design/assets/repo.svg" width="24" height="24"
-                            class="ml-4 md:ml-13 py-4" alt="GitHub logo"></a>
+  <!-- Portrait -->
+  <div class="flex-shrink-0">
+    <div class="relative w-48 sm:w-56 md:w-64 aspect-[4/5]">
+      <img src="design/Images/Image.png" alt="Portrait of Shri Harshan"
+        class="w-full h-full object-cover rounded-sm border border-black">
+    </div>
+  </div>
 
-                    <a href="https://www.linkedin.com/in/mrshri-harshan/" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn"><img
-                            src="design/assets/Linkedin.svg" width="24" height="24" class="ml-6 md:ml-10 py-4"
-                            alt="LinkedIn logo"></a>
+  <!-- Text content -->
+  <div class="flex flex-col items-start text-left max-w-md">
 
-                    <a href="mailto:shriharshancse@gmail.com" target="_blank" rel="noopener noreferrer" aria-label="Email"><img src="design/assets/mail.svg"
-                            width="24" height="24" class="ml-6 md:ml-10 py-4" alt="Email icon"></a>
-                </div>
-            </div>
-            <div class="flex justify-center md:justify-end w-full md:w-1/2 pt-10 md:pt-20 pr-6 lg:pr-10">
-                <img src="design/Images/Image.png" alt="Portrait of Shri Harshan"
-                    class="w-64 sm:w-80 md:w-[420px] lg:w-[480px] h-auto object-contain ">
-            </div>
-        </div>
+    <!-- Availability badge -->
+    <div class="inline-flex items-center gap-2 text-[12px] tracking-wide uppercase text-black/50 mb-4">
+      <span class="relative flex h-2 w-2">
+        <span class="animate-ping absolute inline-flex h-full w-full rounded-full bg-green-500 opacity-75"></span>
+        <span class="relative inline-flex rounded-full h-2 w-2 bg-green-500"></span>
+      </span>
+      Open to opportunities
+    </div>
 
+    <!-- Eyebrow -->
+    <p class="text-[12px] tracking-[0.2em] uppercase text-black/40 mb-3">
+      Software Engineer
+    </p>
+
+    <h1 class="text-[32px] sm:text-[40px] md:text-[46px] font-normal leading-[1.1] tracking-tight whitespace-nowrap"
+      style="font-family: 'Playfair Display', serif;">
+      Hey, I'm Shri Harshan.
+    </h1>
+
+    <p class="text-[15px] sm:text-[16px] text-black/55 mt-4 leading-relaxed">
+      I'm a Software Engineer building reliable software through
+      clean code and modern technologies.
+    </p>
+
+    <!-- CTAs — untouched, exactly as your current version -->
+    <div class="flex flex-col sm:flex-row items-start gap-3 mt-8">
+      <a href="#projects"
+        class="bg-[#B4ADAD] font-normal py-2 px-4 border-b-4 rounded hover:bg-black hover:text-white hover:border-[#000] transition delay-150 duration-300 ease-in-out cursor-pointer inline-block">
+        View Projects
+      </a>
+      <a href="design/assets/resume/Shri_Harshan_Resume.pdf" download="Shri_Harshan_Resume.pdf"
+        class="inline-block bg-transparent font-normal py-2 px-4 border border-b-4 rounded hover:bg-[#B4ADAD] hover:text-black transition duration-300 cursor-pointer">
+        Download Resume
+      </a>
+    </div>
+
+    <!-- Socials -->
+    <div class="flex items-center gap-5 mt-8">
+      <a href="https://github.com/harshanrepo" target="_blank" rel="noopener noreferrer" aria-label="GitHub"
+        class="transition-transform duration-300 hover:-translate-y-1">
+        <img src="design/assets/repo.svg" width="20" height="20" alt="GitHub logo">
+      </a>
+      <a href="https://www.linkedin.com/in/mrshri-harshan/" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn"
+        class="transition-transform duration-300 hover:-translate-y-1">
+        <img src="design/assets/Linkedin.svg" width="20" height="20" alt="LinkedIn logo">
+      </a>
+      <a href="mailto:shriharshancse@gmail.com" target="_blank" rel="noopener noreferrer" aria-label="Email"
+        class="transition-transform duration-300 hover:-translate-y-1">
+        <img src="design/assets/mail.svg" width="20" height="20" alt="Email icon">
+      </a>
+    </div>
+  </div>
+</div>
         <div id="skills" class="mt-8 px-4 sm:px-6">
             <h2
-                class="mt-16 md:mt-24 text-[24px] hover:bg-black hover:text-white p-2 transition delay-150 duration-300 rounded inline-block w-fit">
+                class="mt-16 md:mt-6 text-[24px] hover:bg-black hover:text-white p-2 transition delay-150 duration-300 rounded inline-block w-fit">
                 — Skills</h2>
             <div class="flex flex-wrap justify-center gap-10 pt-5">
                 <div class="border-1 px-4 py-2 w-full sm:w-sm rounded-2xl border border-black-400 bg-[#F7F2EA] p-6
@@ -195,7 +218,7 @@
 
             <div class="mt-10 space-y-6">
 
-                
+
                 <div class="relative rounded-2xl border border-black-400  p-6
          transition-all duration-300 ease-out
          hover:-translate-x-2
@@ -206,10 +229,12 @@
                         <div class="flex items-start justify-between">
                             <h3 class="text-xl sm:text-2xl font-bold">Argus</h3>
                             <div class="flex gap-4">
-                                <a href="https://github.com/harshanrepo/Argus-API-Uptime-Monitor" target="_blank" rel="noopener noreferrer"><img
-                                        src="design/assets/repo.svg" width="30" height="30"></a>
-                                <a href="https://argus-api-uptime-monitor.onrender.com" target="_blank" rel="noopener noreferrer"><img
-                                        src="design\assets\Demo.svg" width="24" height="24" class="pt-1"></a>
+                                <a href="https://github.com/harshanrepo/Argus-API-Uptime-Monitor" target="_blank"
+                                    rel="noopener noreferrer"><img src="design/assets/repo.svg" width="30"
+                                        height="30"></a>
+                                <a href="https://argus-api-uptime-monitor.onrender.com" target="_blank"
+                                    rel="noopener noreferrer"><img src="design\assets\Demo.svg" width="24" height="24"
+                                        class="pt-1"></a>
                             </div>
                         </div>
                         <h4 class="text-base font-medium mt-1">API Uptime Monitoring Tool</h4>
@@ -245,10 +270,12 @@
                             <div class="flex items-start justify-between ">
                                 <h3 class="text-xl sm:text-2xl font-bold">SpendWise</h3>
                                 <div class="flex gap-4">
-                                    <a href="https://github.com/harshanrepo/expense-tracker" target="_blank" rel="noopener noreferrer"><img
-                                            src="design/assets/repo.svg" width="30" height="30"></a>
-                                    <a href="https://expense-tracker-1-augk.onrender.com/" target="_blank" rel="noopener noreferrer"><img
-                                            src="./design/assets/Demo.svg" width="24" height="24" class="pt-1"></a>
+                                    <a href="https://github.com/harshanrepo/expense-tracker" target="_blank"
+                                        rel="noopener noreferrer"><img src="design/assets/repo.svg" width="30"
+                                            height="30"></a>
+                                    <a href="https://expense-tracker-1-augk.onrender.com/" target="_blank"
+                                        rel="noopener noreferrer"><img src="./design/assets/Demo.svg" width="24"
+                                            height="24" class="pt-1"></a>
                                 </div>
                             </div>
                             <h4 class="text-base font-medium mt-1">Expense Tracker</h4>
@@ -278,8 +305,9 @@
 
                             <div class="flex items-start justify-between">
                                 <h3 class="text-xl sm:text-2xl font-bold">Savora</h3>
-                                <a href="https://github.com/harshanrepo/savora-link-manager" target="_blank" rel="noopener noreferrer"><img
-                                        src="design/assets/repo.svg" width="30" height="30"></a>
+                                <a href="https://github.com/harshanrepo/savora-link-manager" target="_blank"
+                                    rel="noopener noreferrer"><img src="design/assets/repo.svg" width="30"
+                                        height="30"></a>
                             </div>
                             <h4 class="text-base font-medium mt-1">Browser Link Manager Extension</h4>
                             <p class="text-sm text-black-100 mt-3">Save, organize, and quickly access browser tabs
@@ -324,11 +352,12 @@
             <div class="right text-center sm:text-right">
                 <p>Designed & Developed by <b>Shri Harshan</b></p>
                 <div class="social_media flex justify-center sm:justify-end">
-                    <a href="https://github.com/harshanrepo" target="_blank" rel="noopener noreferrer" aria-label="GitHub"><img src="design/assets/repo.svg"
-                            width="24" height="24" class="ml-4 sm:ml-13 py-4" alt="GitHub logo"></a>
-                    <a href="https://www.linkedin.com/in/mrshri-harshan/" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn"><img
-                            src="design/assets/Linkedin.svg" width="24" height="24" class="ml-6 sm:ml-10 py-4"
-                            alt="LinkedIn logo"></a>
+                    <a href="https://github.com/harshanrepo" target="_blank" rel="noopener noreferrer"
+                        aria-label="GitHub"><img src="design/assets/repo.svg" width="24" height="24"
+                            class="ml-4 sm:ml-13 py-4" alt="GitHub logo"></a>
+                    <a href="https://www.linkedin.com/in/mrshri-harshan/" target="_blank" rel="noopener noreferrer"
+                        aria-label="LinkedIn"><img src="design/assets/Linkedin.svg" width="24" height="24"
+                            class="ml-6 sm:ml-10 py-4" alt="LinkedIn logo"></a>
                     <a href="mailto:shriharshancse@gmail.com" aria-label="Email"><img src="design/assets/mail.svg"
                             width="24" height="24" class="ml-6 sm:ml-10 py-4" alt="Email icon"></a>
                 </div>
