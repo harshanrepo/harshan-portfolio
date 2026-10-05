@@ -25,6 +25,13 @@ A modern and responsive personal portfolio website showcasing my projects, techn
 
 ## Featured Projects
 
+### resolveDesk
+A Help Desk / Ticket Management System that manages support tickets end-to-end with role-based access for Users, Support Staff, and Admins, from ticket creation through resolution.
+
+**Tech Stack:** Python, FastAPI, SQLAlchemy, SQLite, Jinja2
+
+---
+
 ### Argus
 An API uptime monitoring platform that automatically checks endpoint availability and displays real-time health status on a centralized dashboard.
 
@@ -39,31 +46,8 @@ A secure expense tracking web application that helps users manage expenses, cate
 
 ---
 
-### Savora
-A Chrome extension for saving, organizing, and managing browser tabs with persistent storage and light/dark mode support.
-
-**Tech Stack:** HTML, CSS, JavaScript
-
----
-
-## 💻 Installation
-
-Clone the repository:
-```bash
-git clone https://github.com/harshanrepo/portfolio.git
-```
-
-Navigate to the project folder:
-```bash
-cd portfolio
-```
-
-Open `index.html` in your browser.
-
 ## Connect With Me
 - LinkedIn: [https://www.linkedin.com/in/mrshri-harshan/](https://www.linkedin.com/in/mrshri-harshan/)
-- Email: shriharshancse@gmail.com
+- Email: shriharshan.dev@gmail.com
 
 ---
-
-⭐ If you like this project, consider giving it a star!
